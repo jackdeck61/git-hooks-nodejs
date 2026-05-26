@@ -4,7 +4,7 @@
   "description": "Exploring Git hooks with nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jackdeck61/git-hooks-nodejs/issues"
   },
-  "homepage": "https://github.com/jackdeck61/git-hooks-nodejs#readme"
+  "homepage": "https://github.com/jackdeck61/git-hooks-nodejs#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
 }
