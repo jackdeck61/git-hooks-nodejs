@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/jackdeck61/git-hooks-nodejs#readme",
   "devDependencies": {
-    "jest": "^30.4.2"
+    "husky": "^4.3.8",
+    "jest": "^30.4.2",
+    "pre-commit": "^2.0.0"
   }
 }
